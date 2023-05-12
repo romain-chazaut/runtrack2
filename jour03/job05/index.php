@@ -36,12 +36,12 @@ while (isset($str[$i])) {
   }
   $i++;
 }
-
+?>
 echo "<table>";
 echo "<thead><tr><th>Voyelles</th><th>Consonnes</th></tr></thead>";
 echo "<tbody><tr><td>" . $dic["voyelles"] . "</td><td>" . $dic["consonnes"] . "</td></tr></tbody>";
 echo "</table>";
-?>
+
 
 </body>
 </html>
