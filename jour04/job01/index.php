@@ -9,11 +9,11 @@
 <body>
 <form action="index.php" method="get">
 		<label for="nom">Nom :</label>
-		<input type="text" name="nom" id="nom"><br>
+		<input type="text" name="nom" id="nom">
 		<label for="prenom">Prénom :</label>
-		<input type="text" name="prenom" id="prenom"><br>
+		<input type="text" name="prenom" id="prenom">
 		<label for="age">Âge :</label>
-		<input type="text" name="age" id="age"><br>
+		<input type="text" name="age" id="age">
 		<input type="submit" value="Envoyer">
 	</form>
 <?php
