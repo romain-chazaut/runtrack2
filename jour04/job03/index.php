@@ -19,7 +19,7 @@
 <?php
 // Initialiser le compteur à zéro
 $count = 0;
-// Parcourir tous les éléments de la variable $_GET
+// Parcourir tous les éléments de la variable $_POST
 foreach ($_POST as $key => $value) {
     // Incrémenter le compteur pour chaque élément
     $count++;
